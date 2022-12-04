@@ -6,6 +6,11 @@ const groupSchema=new Schema({
     members:[{
         memberId: Schema.Types.ObjectId,
         ref: 'User'
+    }],
+    expenses:[{
+        billId:Schema.Types.ObjectId,
+        ref:'Bill',
+        time: timestamp
     }]
 });
 

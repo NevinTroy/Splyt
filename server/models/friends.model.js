@@ -7,3 +7,5 @@ const friendSchema=new Schema({
         ref: 'User'
     }]
 })
+
+//up for discussion

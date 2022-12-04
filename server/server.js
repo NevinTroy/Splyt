@@ -4,7 +4,7 @@ const mongoose= require('mongoose');
 
 const app=express();
 
-mongoose.connect("connection URL");
+mongoose.connect("connection String");
 const User=require('./models/users.model')
 
 app.use(express.json());

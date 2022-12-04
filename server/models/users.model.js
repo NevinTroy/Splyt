@@ -23,7 +23,11 @@ const userSchema=new Schema({
     friends:[{
         type: Schema.Types.ObjectId,
         ref: 'User',
-        friendUsername:String
+        friendUsername:String,
+        accepted:{
+            type:Boolean,
+            default:false
+        }
     }]
 });
 

@@ -12,7 +12,7 @@ const transactionSchema=new Schema({
     },
     transactions:[
         {
-            timestamp: Timestamp,
+            times: timestamp,
             amount: integer,
             paid:{
                 type:Boolean,
