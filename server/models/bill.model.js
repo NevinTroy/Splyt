@@ -16,7 +16,7 @@ const billSchema=new Schema({
         amount:double
     }],
     total: double,
-    time: Timestamp,
+    time: timestamp,
     items:[{
         itemName: String,
         price: double
